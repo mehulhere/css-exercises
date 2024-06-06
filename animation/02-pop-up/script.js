@@ -6,6 +6,7 @@ function toggleModal() {
   const backdrop = document.querySelector('.backdrop');
   modalDiv.classList.toggle('show');
   backdrop.classList.toggle('show');
+  modalDiv.classList.toggle('move');
 }
 
 openButton.addEventListener('click', toggleModal);
